@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery';
 import 'bootstrap';
 import 'vazir-font/dist/font-face.css';
+import arrow from './components/img/arrow.png'
 import Navbar from './components/Navbar/Navbar';
 import Carousel from './components/Carousel/Carousel';
 import Main from './components/Main/Main'
@@ -18,7 +19,7 @@ function App() {
           <Navbar />
         </div>
         <div className=" pb-5">
-          <Carousel />
+          <Carousel  title="لورم اپیسوم متن ساختگی" content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است." buttontxt="همین حالا سفارش بده" btnicon={arrow}/>
           <Main />
         </div>
 

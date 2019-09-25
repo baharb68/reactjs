@@ -1,4 +1,29 @@
-.carousel-item > img{
+.carouselExampleIndicators{
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
+    overflow: hidden;
+}
+.carousel-item > div{
+    z-index: 1;
+    top: 30%;
+    left: 10%;
+    padding: 0 100px;
+}
+.carousel-item > div  h2{
+    font-size: 1.5rem;
+    color: #2b386f;
+}
+.carousel-item > div  p{
+    font-size: 0.7rem;
+    color: #9ea3c3;
+}
+.carousel-item > div  button{
+    border: 0;
+    border-radius: 20px;
+    background: linear-gradient(45deg,#063d63,#3377a8);
+    font-size: 0.7rem;
+    padding: 10px 15px;
+}
+.carousel-item > div  img{
+    width: 15px !important;
 }
