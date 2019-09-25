@@ -1,0 +1,17 @@
+a{
+    text-decoration: none !important;
+  }
+.navbar a{
+    font-size: 0.8rem;
+}
+.active a{
+    background: linear-gradient(45deg,#7d99ad,#096db4);
+    border-radius: 20px;
+}
+.text-gray{
+    color:#726c81 !important;
+}
+.text-gray:hover{
+    background-color: #f4f4fb;
+    border-radius: 20px;
+}
