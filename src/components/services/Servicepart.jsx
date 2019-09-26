@@ -13,7 +13,7 @@ export default class Servicepart extends Component {
                         <h6 className="m-0">{this.props.content} </h6>
                     </div>
                     <div className="col-3 p-0 w-100">
-                        <img src={serviceicon} alt="" className="w-100"/>
+                        <img src={this.props.serviceicon} alt="" className="w-100"/>
                     </div>
                 </div>
             </div>

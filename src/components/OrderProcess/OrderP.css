@@ -24,3 +24,6 @@
 .b-shadow2{
     box-shadow:0px 5px 10px #eceffa;
 }
+.order-steps .position-absolute{
+    width: 40px;
+}

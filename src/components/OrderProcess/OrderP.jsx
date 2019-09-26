@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import './OrderP.css'
 import Orderpart from './Orderpart'
 import seperator from '../img/seperator.png'
-import shop from '../img/step-shop.png'
-import mail from '../img/step-mail.png'
-import credit from '../img/step-credit.png'
+import shop from '../img/shoppingicon.png'
+import mail from '../img/sendicon.png'
+import credit from '../img/credit-card.png'
 import Products from '../products/Products'
 
 export default class OrderP extends Component {
