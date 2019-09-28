@@ -2,3 +2,7 @@
     background-image: url("../img/world-bg.jpg");
     background-size: cover;
 }
+.comment-bg{
+    background-image: url("../img/bgcomment.png");
+    background-size: cover;
+}

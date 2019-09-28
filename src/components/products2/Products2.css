@@ -8,7 +8,7 @@
     padding: 40px 0;
 }
 .productitem:hover >  div:first-child{
-    background-color: #fb3f3f;
+    background-color: #1b233b;
 
 }
 .productitem > div:first-child > div {
