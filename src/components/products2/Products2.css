@@ -7,6 +7,10 @@
     border-radius: 0 !important;
     padding: 40px 0;
 }
+.productitem:hover >  div:first-child{
+    background-color: #fb3f3f;
+
+}
 .productitem > div:first-child > div {
     width: 40px !important;
 }
@@ -19,9 +23,12 @@
     line-height: 20px;
 }
 .like{
-    width: 50px !important;
+    width: 20px !important;
+}
+.productitem > div:nth-child(2) > h3{
+    font-size: 0.8rem;
 }
 .productitem > div:nth-child(2) > div > h4{
     color: #2b376f;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
