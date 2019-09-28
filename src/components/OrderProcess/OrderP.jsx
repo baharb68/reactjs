@@ -21,6 +21,6 @@ export default class OrderP extends Component {
                     <Orderpart ordericon={shop} title="ثبت سفارش خرید" content=" لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است" />
                 </div>    
             </div>
-        )
+        ) 
     }
 }

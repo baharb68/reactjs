@@ -1,0 +1,41 @@
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > h2{
+    color: #2b376f !important;
+    font-size: 1.6rem;
+}
+
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > img{
+    width: 150px;
+}
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > div > div > div{
+    border-radius: 20px;
+}
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > div > div > div > div > div{
+    width: 40px;
+}
+
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > div > div > div > div > h2{
+    font-size: 1.5rem;
+    color: #0e2454;
+}
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > div > div > div > h3{
+    font-size: 0.8rem;
+}
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > div > div > div > p{
+    color: #9ea4c4;
+    font-size: 0.6rem;
+    line-height: 20px;
+}
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > div > div > button{
+border: 0;
+border-radius: 20px;
+background: linear-gradient(45deg,#063d63,#3377a8);
+font-size: 0.8rem;
+padding: 12px 20px;
+bottom: -8%;
+}
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > div > div > button:hover{
+background: linear-gradient(45deg,#4b4f5b,#afb2bb);
+}
+#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > div > div > button > img{
+width: 15px !important;
+}

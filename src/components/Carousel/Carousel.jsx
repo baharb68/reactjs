@@ -24,12 +24,6 @@ class Carousel extends Component {
                                     <button className="mr-auto text-white mt-4">{this.props.buttontxt}<img src={this.props.btnicon} alt="" className="mr-2"/></button>
                                 </div>
                             </div>
-                            {/* <div class="carousel-item">
-                            <img src={carousel2} class="d-block w-100 bg-white" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                            <img src={carousel3} class="d-block w-100 bg-white" alt="..." />
-                            </div> */}
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
