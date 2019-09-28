@@ -1,0 +1,27 @@
+.productitem{
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+.productitem > div:first-child{
+    background-color: #253b80;
+    border-radius: 0 !important;
+    padding: 40px 0;
+}
+.productitem > div:first-child > div {
+    width: 40px !important;
+}
+.productitem > div:first-child > h2 {
+    font-size: 1.7rem !important;
+}
+.productitem > div:nth-child(2) >  p{
+    color: #9ea4c4;
+    font-size: 0.6rem;
+    line-height: 20px;
+}
+.like{
+    width: 50px !important;
+}
+.productitem > div:nth-child(2) > div > h4{
+    color: #2b376f;
+    font-size: 0.8rem;
+}

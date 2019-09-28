@@ -8,16 +8,15 @@ import webmoney from '../img/webmoney.png'
 import pm from '../img/pm.png'
 import apple from '../img/apple.png'
 import arrow from '../img/arrow.png'
-
+import Partstitle from '../Partstitle'
 import Categoryitem from './Categoryitem'
 
 export default class Category extends Component {
     render() {
         return (
-            <div classname="d-flex flex-column align-items-center ">
-                <h2 className="font-weight-bold pb-2">دسته بندی ها</h2>
-                <img src={seperator} alt="" className=""/>
-                <div className="w-75 d-flex flex-column flex-md-row flex-wrap  mx-auto ">
+            <div classname="d-flex flex-column align-items-center">
+                <Partstitle title="دسته بندی ها" seperator={seperator}/>
+                <div className="w-75 d-flex flex-column flex-md-row flex-wrap  mx-auto pb-5">
                     <Categoryitem icon={pm} name="PerfectMoney" title="پرفکت مانی"  content="   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگر ها و متون بلکه روزنامه و مجله در ستون و" btntext="ثبت سفارش" btnicon={arrow}/>
                     <Categoryitem icon={webmoney} name="Web Money" title="وب مانی"  content="   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگر ها و متون بلکه روزنامه و مجله در ستون و" btntext="ثبت سفارش" btnicon={arrow}/>
                     <Categoryitem icon={steam} name="S T E A M" title="استیم"  content="   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگر ها و متون بلکه روزنامه و مجله در ستون و" btntext="ثبت سفارش" btnicon={arrow}/>
@@ -25,7 +24,6 @@ export default class Category extends Component {
                     <Categoryitem icon={paypal} name="PayPal" title="پی پال"  content="   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگر ها و متون بلکه روزنامه و مجله در ستون و" btntext="ثبت سفارش" btnicon={arrow}/>
                     <Categoryitem icon={playstation} name="PlayStation" title="پلی استیشن"  content="   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگر ها و متون بلکه روزنامه و مجله در ستون و" btntext="ثبت سفارش" btnicon={arrow}/>
                 </div>
-
             </div>
         )
     }

@@ -3,6 +3,7 @@ import './Main.css'
 import Services from '../services/Services'
 import Orderp from  '../OrderProcess/OrderP'
 import Category from '../category/Category'
+import Products2 from '../products2/Products2'
 
 export default class Main extends Component {
     render() {
@@ -16,6 +17,7 @@ export default class Main extends Component {
                 </div>
                 <div className="container mt-5">
                     <Category />
+                    <Products2 />
                 </div>
             </div>
         )

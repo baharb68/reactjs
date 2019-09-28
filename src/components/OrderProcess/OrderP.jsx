@@ -6,14 +6,14 @@ import shop from '../img/shoppingicon.png'
 import mail from '../img/sendicon.png'
 import credit from '../img/credit-card.png'
 import Products from '../products/Products'
+import Partstitle from '../Partstitle'
 
 export default class OrderP extends Component {
     render() {
         return (
             <div className="order-steps container d-flex flex-column align-items-center  position-relative w-100 h-100">
                 <Products />
-                <h2 className="font-weight-bold pb-2">مراحل ثبت سفارش</h2>
-                <img src={seperator} alt="" className="pb-3"/>
+                <Partstitle title="مراحل ثبت سفارش" seperator={seperator}/>
                 
                 <div className="d-flex flex-column flex-md-row pt-5 w-75">
                     <Orderpart ordericon={credit} title="ثبت نام حساب کاربری" content=" لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است" />

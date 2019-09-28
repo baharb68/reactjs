@@ -1,11 +1,4 @@
-#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > h2{
-    color: #2b376f !important;
-    font-size: 1.6rem;
-}
 
-#root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > img{
-    width: 150px;
-}
 #root > div > div > div.pb-5 > div:nth-child(2) > div.container.mt-5 > div > div > div > div{
     border-radius: 20px;
 }
