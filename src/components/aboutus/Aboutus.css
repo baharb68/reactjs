@@ -1,11 +1,11 @@
-.about > .col-md-8 > div > div{
+.about > .col-md-7 > div > div{
     width: 70px;
 }
-.about > .col-md-8 h1{
+.about > .col-md-7 h1{
     color: #726c81;
     font-size: 1.8rem;
 }
-.about > .col-md-8 h2{
+.about > .col-md-7 h2{
     color: #726c81;
     font-size: 0.6rem;
 }
@@ -13,4 +13,27 @@
     color: #9b9cb9;
     font-size: 0.6rem;
     line-height: 20px;
+}
+.about .input-group{
+    direction: ltr;
+    border: 1px solid #e7edfa;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.about .input-group > span > h5{ 
+    color: #a6abc8;
+    border-left:1px solid #e7edfa ;
+    font-size: 0.9rem;
+}
+.about .form-control{
+    border: 0px !important;
+    font-size: 0.8rem;
+    color: #d5d8e5;
+
+}
+.about .input-group-text{
+    border: 0px;
+    background-color: transparent;
+    color: #179bd7;
+    font-size: 0.8rem;
 }

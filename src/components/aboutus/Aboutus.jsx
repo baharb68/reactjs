@@ -4,8 +4,8 @@ import './Aboutus.css'
 export default class Aboutus extends Component {
     render() {
         return (
-            <div className="w-75 about container d-flex flex-column flex-md-row py-5">
-                <div className="col-12 col-md-8 d-flex flex-column p-0 pl-md-4">
+            <div className="about container d-flex flex-column flex-md-row py-5">
+                <div className="col-12 col-md-7 d-flex flex-column p-0 pl-md-4">
                     <div className="d-flex justify-content-start">
                         <div>
                             <img src={this.props.logo} alt="" className="w-100"/>
@@ -17,13 +17,14 @@ export default class Aboutus extends Component {
                     </div>
                     <p className="text-justify mt-3">{this.props.briefing}</p>
                 </div>
-                <div className="col-12 col-md-4 d-flex flex-column p-0 pr-md-4">
+                <div className="col-12 col-md-5 d-flex flex-column p-0 pr-md-4">
 
-                    <div class="input-group mb-3">
+                    <div class="input-group mb-3 py-2 px-2">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon3">{this.props.btntext}</span>
                         </div>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"/>
+                        <input type="text" class="form-control text-right" id="basic-url" aria-describedby="basic-addon3" placeholder="لطفا ایمیل خود را وارد کنید"/>
+                        <span class="d-flex align-items-center "><h5 className="font-weight-light p-2 m-0">{this.props.formtitle}</h5></span>
                     </div>
                 </div>
                 
