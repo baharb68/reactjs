@@ -9,3 +9,14 @@
     font-size: 0.8rem;
     color: #7b7da3;
 }
+.contactbtn{
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#063d63,#3377a8);
+    font-size: 0.7rem;
+    padding: 10px 15px;
+    width: 150px;
+}
+.contactbtn  img{
+    width: 20px !important;
+}
