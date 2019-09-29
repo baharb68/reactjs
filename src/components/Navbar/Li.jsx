@@ -7,7 +7,7 @@ export default class Li extends Component {
     render() {
         return (
             <li class="nav-item px-2 ">
-                <a class="nav-link px-3 py-1 text-gray" href="#">{this.props.link}</a>
+                <a class="nav-link px-2 py-1 text-gray" href="#">{this.props.link}</a>
             </li>
         )
     }

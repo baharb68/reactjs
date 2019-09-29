@@ -1,21 +1,22 @@
 import React, {Component} from 'react';
 import './Navbar.css';
 import Li from './Li'
-import logo from '../img/logo.png'
+import Logo from '../logo/Logo'
+import logo1 from '../img/logo.png'
 class Navbar extends Component {
     render() { 
         return (
             <div className="container ">
-                   <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
-                        <a class="navbar-brand" href="#">
-                            <img src={logo} alt="" width="80" />
+                   <nav class="navbar navbar-expand-lg navbar-light justify-content-between px-0">
+                        <a class="navbar-brand m-0" href="#">
+                            <Logo logo={logo1} webname="VizaCart" webdesc="خدمات تبادل ارزهای مجازی"/>
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
                         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav pr-0">
                                 <Li link="خانه" className="active" />
                                 <Li link="فروشگاه" />
                                 <Li link="مراحل ثبت سفارش" />
