@@ -1,0 +1,11 @@
+.contacttxt{
+    border-left: 2px solid #e1e4ed;
+}
+.contacttxt   p{
+    font-size: 0.7rem;
+    color: #7b7da3;
+}
+.contacttxt  h3{
+    font-size: 0.8rem;
+    color: #7b7da3;
+}
