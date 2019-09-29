@@ -10,7 +10,7 @@ import support from '../img/support.png'
 export default class Services extends Component {
     render() {
         return (
-            <div className="d-flex flex-column flex-md-row pt-3 pb-5">
+            <div className="d-flex flex-column flex-md-row  pt-md-3 pb-3 pb-md-5">
                 <Servicepart title="قیمت های منصفانه" content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از" serviceicon={cost} />
                 <Servicepart title="پرداخت امن درگاه بانکی" content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از" serviceicon={credit} />
                 <Servicepart title="ارسال فوری" content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از" serviceicon={mail} />

@@ -2,6 +2,9 @@
     padding-top: 13%;
     padding-bottom: 100px;
 }
+.order-steps > .d-none{
+    top: -14%;
+}
 .order-steps > h2 , h3{
     color: #2b376f !important;
     font-size: 1.6rem;

@@ -7,7 +7,7 @@ export default class Products2item extends Component {
     }
     render() {
         return (
-            <div className="col-12 col-md-4  d-flex flex-column px-1 b-shadow">
+            <div className="col-12 col-md-4  d-flex flex-column px-1 b-shadow mt-2 mt-md-0">
                 <div className="productitem">
                     <div className="d-flex justify-content-center align-items-center">
                         <h2 className="m-0 pl-3 text-white ">{this.props.name}</h2>

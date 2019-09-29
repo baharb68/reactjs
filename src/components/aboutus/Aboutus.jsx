@@ -13,7 +13,7 @@ export default class Aboutus extends Component {
     render() {
         return (
             <div className="about container d-flex flex-column flex-md-row p-5">
-                <div className="col-12 col-md-8 d-flex flex-column p-0 px-md-5 ">
+                <div className="col-12 col-md-8 d-flex flex-column p-0 px-md-5 mb-2 mb-md-0 ">
                     <Logo logo={logo1} webname="VizaCart" webdesc="خدمات تبادل ارزهای مجازی"/>
                     <p className="text-justify mt-3 mb-0">{this.props.briefing}</p>
                 </div>

@@ -11,7 +11,7 @@ export default class Products2 extends Component {
         return (
             <div className="d-flex flex-column align-items-center mt-5">
               <Partstitle title="مجصولات ما" seperator={seperator}/>
-              <div className="d-flex flex-column flex-md-row mt-3 w-75">
+              <div className="d-flex flex-column flex-md-row mt-5 w-75">
                   <Products2item icon={paypal2} name="PayPal" title="ووجر-پرفکت-مانی-دلار" content=" لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگر ها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای" cost="15120" likeicon={heart} />
                   <Products2item icon={paypal2} name="PayPal" title="ووجر-پرفکت-مانی-دلار" content=" لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگر ها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای" cost="15120" likeicon={heart} />
                   <Products2item icon={paypal2} name="PayPal" title="ووجر-پرفکت-مانی-دلار" content=" لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگر ها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای" cost="15120" likeicon={heart} />

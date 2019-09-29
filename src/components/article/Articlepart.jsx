@@ -7,7 +7,7 @@ export default class Articlepart extends Component {
     render() {
         return (
             <div className="col-12 col-md-4 mt-2 mt-md-0 p-2">
-                <div className="article d-flex flex-column align-items-center position-relative bg-white b-shadow">
+                <div className="article d-flex flex-column align-items-center position-relative bg-white b-shadow mb-5 mb-md-0">
                     <div className="position-relative">
                         <img src={this.props.photo} alt="" className="w-100"/>
                         <div className="text-white position-absolute px-3 font-weight-light">{this.props.date}</div>

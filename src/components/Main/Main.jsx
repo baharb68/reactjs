@@ -11,10 +11,10 @@ export default class Main extends Component {
     render() {
         return (
             <div>
-                <div className="container pt-5">
+                <div className="container pt-3 pt-md-5">
                     <Services /> 
                 </div>
-                <div className="container-fluid world-bg mt-5">
+                <div className="container-fluid world-bg mt-2 mt-md-5">
                     <Orderp />
                 </div>
                 <div className="container mt-5 ">

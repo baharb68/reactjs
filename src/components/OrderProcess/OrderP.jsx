@@ -11,8 +11,10 @@ import Partstitle from '../Partstitle'
 export default class OrderP extends Component {
     render() {
         return (
-            <div className="order-steps container d-flex flex-column align-items-center  position-relative w-100 h-100">
-                <Products />
+            <div className="order-steps container d-flex flex-column align-items-center position-relative h-100 ">
+                <div className="d-none d-md-block w-100 position-absolute">
+                    <Products />
+                </div>
                 <Partstitle title="مراحل ثبت سفارش" seperator={seperator}/>
                 
                 <div className="d-flex flex-column flex-md-row pt-5 w-75">

@@ -6,9 +6,9 @@ export default class Servicepart extends Component {
     }
     render() {
         return (
-            <div className=" col-12 col-md-3 p-0 pl-md-2 ">
+            <div className=" col-12 col-md-3 p-0 mt-2 mt-md-0 pl-md-2 ">
                 <div className="parts bg-white  d-flex flex-row px-3 py-4">
-                    <div className="col-9  d-flex flex-column text-right p-0 m-0">
+                    <div className="col-9  d-flex flex-column text-right p-0 ml-2 ml-md-0">
                         <h2>{this.props.title}</h2>
                         <h6 className="m-0">{this.props.content} </h6>
                     </div>
