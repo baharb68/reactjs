@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
 import './Aboutus.css'
+import './AboutusItem'
+import about1 from '../img/about1.png'
+import about2 from '../img/about2.png'
+import about3 from '../img/about3.png'
+import AboutusItem from './AboutusItem'
 
 export default class Aboutus extends Component {
     render() {
         return (
-            <div className="about container d-flex flex-column flex-md-row py-5">
-                <div className="col-12 col-md-7 d-flex flex-column p-0 pl-md-4">
+            <div className="about container d-flex flex-column flex-md-row p-5">
+                <div className="col-12 col-md-8 d-flex flex-column p-0 px-md-5 ">
                     <div className="d-flex justify-content-start">
                         <div>
                             <img src={this.props.logo} alt="" className="w-100"/>
@@ -17,7 +22,12 @@ export default class Aboutus extends Component {
                     </div>
                     <p className="text-justify mt-3">{this.props.briefing}</p>
                 </div>
-                <div className="col-12 col-md-5 d-flex flex-column p-0 pr-md-4">
+                <div className="col-12 col-md-4  d-flex flex-column p-0 pr-md-4">
+                    <div className="d-flex">
+                        <AboutusItem photo={about3} text="ستاد سازمان دهی پایگاه های اینترنتی" />
+                        <AboutusItem photo={about2} text="اتحادیه کشوری کسب و کارهای مجازی" />
+                        <AboutusItem photo={about1} text="نماد اعتماد الکترونیکی" />
+                    </div>
 
                     <div class="input-group mb-3 py-2 px-2">
                         <div class="input-group-prepend">
