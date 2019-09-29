@@ -5,21 +5,16 @@ import about1 from '../img/about1.png'
 import about2 from '../img/about2.png'
 import about3 from '../img/about3.png'
 import AboutusItem from './AboutusItem'
+import Logo from '../logo/Logo'
+import logo1 from '../img/logo.png'
+
 
 export default class Aboutus extends Component {
     render() {
         return (
             <div className="about container d-flex flex-column flex-md-row p-5">
                 <div className="col-12 col-md-8 d-flex flex-column p-0 px-md-5 ">
-                    <div className="d-flex justify-content-start">
-                        <div>
-                            <img src={this.props.logo} alt="" className="w-100"/>
-                        </div>
-                        <div className="d-flex flex-column w-100 text-right justify-content-center pr-2">
-                            <h1 className="m-0">{this.props.webname}</h1>
-                            <h2 className="m-0">{this.props.webdesc}</h2>
-                        </div>
-                    </div>
+                    <Logo logo={logo1} webname="VizaCart" webdesc="خدمات تبادل ارزهای مجازی"/>
                     <p className="text-justify mt-3">{this.props.briefing}</p>
                 </div>
                 <div className="col-12 col-md-4  d-flex flex-column p-0 pr-md-4">

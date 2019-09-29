@@ -1,0 +1,11 @@
+.logo > div{
+    width: 70px;
+}
+.logo h1{
+    color: #726c81;
+    font-size: 1.8rem;
+}
+.logo h2{
+    color: #726c81;
+    font-size: 0.6rem;
+}
