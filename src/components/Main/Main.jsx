@@ -5,6 +5,7 @@ import Orderp from  '../OrderProcess/OrderP'
 import Category from '../category/Category'
 import Products2 from '../products2/Products2'
 import Comment from '../comment/Comment'
+import Article from '../article/Article'
 
 export default class Main extends Component {
     render() {
@@ -22,6 +23,9 @@ export default class Main extends Component {
                 </div>
                 <div className="container-fluid comment-bg mt-5 pt-3 pb-5">
                     <Comment />
+                </div>
+                <div className="container-fluid article-bg py-5">
+                    <Article />
                 </div>
             </div>
         )

@@ -1,0 +1,32 @@
+.article{
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
+.article > div > img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.article > div > .position-absolute{
+    background-color: #4a4b4d;
+    border-radius: 5px;
+    top: 10%;
+    right: 10%;
+    font-size: 0.8rem;
+}
+.article h2{
+    color: #2b376f !important;
+    font-size: 0.8rem;
+}
+.article p{
+    color: #9ea4c4;
+    font-size: 0.6rem;
+    line-height: 20px;
+}
+.article button{
+border: 0;
+background: linear-gradient(45deg,#063d63,#3377a8);
+bottom: -9%;
+}
+.article button > img{
+    width: 20px;
+}

@@ -6,3 +6,8 @@
     background-image: url("../img/bgcomment.png");
     background-size: cover;
 }
+.article-bg{
+    background-image: url("../img/bg3.jpg");
+    background-size: cover;
+    height: 700px
+}
