@@ -1,0 +1,16 @@
+.about > .col-md-8 > div > div{
+    width: 70px;
+}
+.about > .col-md-8 h1{
+    color: #726c81;
+    font-size: 1.8rem;
+}
+.about > .col-md-8 h2{
+    color: #726c81;
+    font-size: 0.6rem;
+}
+.about p{
+    color: #9b9cb9;
+    font-size: 0.6rem;
+    line-height: 20px;
+}
