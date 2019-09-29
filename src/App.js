@@ -9,6 +9,7 @@ import arrow from './components/img/arrow.png'
 import Navbar from './components/Navbar/Navbar';
 import Carousel from './components/Carousel/Carousel';
 import Main from './components/Main/Main'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -18,13 +19,12 @@ function App() {
         <div className="bg-white b-shadow">
           <Navbar />
         </div>
-        <div className=" pb-5">
+        <div className="">
           <Carousel  title="لورم اپیسوم متن ساختگی" content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است." buttontxt="همین حالا سفارش بده" btnicon={arrow}/>
           <Main />
+          <Footer />
         </div>
-
       </div>
-
     </div>
   );
 }
